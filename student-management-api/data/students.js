@@ -1,12 +1,3 @@
-// data/students.js
-// -----------------------------------------------------------------------
-// Simple data-access layer for the Student Management REST API.
-// As per assignment restrictions: NO database (MongoDB/MySQL), NO Mongoose.
-// Data lives in memory as a JavaScript ARRAY, seeded from a JSON file, and
-// changes are persisted back to that same JSON file so data survives
-// server restarts.
-// -----------------------------------------------------------------------
-
 const fs = require("fs");
 const path = require("path");
 
