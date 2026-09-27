@@ -1,10 +1,3 @@
-// middleware/errorHandler.js
-// -----------------------------------------------------------------------
-// Centralized error-handling middleware (Functional Requirement #5).
-// Any route that calls next(err) will end up here, and any error thrown
-// inside an async route (wrapped in try/catch) is forwarded here too.
-// -----------------------------------------------------------------------
-
 // 404 handler - for any route that doesn't match
 function notFound(req, res, next) {
   const error = new Error(`Route not found - ${req.originalUrl}`);
